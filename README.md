@@ -117,7 +117,7 @@ IDEs](https://vaadin.com/docs/latest/guide/step-by-step/importing) (Eclipse, Int
    [<img height="100px" src="tutorial/csessions.png?raw=true"/>](tutorial/csessions.png?raw=true)
 5. There should be a session for `user` user listed, click on the three dots drop-down menu like in the picture above
 6. Click on "Sign out"
-7. This should cause the KeyCloack server to directly call the running demo server and perform backchannel logout of the given user
+7. This should cause the KeyCloak server to directly call the running demo server and perform backchannel logout of the given user
 8. Go back to the demo and click, for example, on the "Public view" to open it
 9. You might have noticed that the page has been reloaded -> that is because the backchannel logout expired the user session, and a new session was created with the click
 10. You are now not authenticated, and when you try to go to Private view, you are asked to log in
