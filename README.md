@@ -115,7 +115,7 @@ IDEs](https://vaadin.com/docs/latest/guide/step-by-step/importing) (Eclipse, Int
 3. Go to Keycloak admin, select `ssokitrealm`, go to Clients and click on the `sso-kit-sample` client
 4. Scroll the tab bar to the right and select the Sessions tab:    
    [<img height="100px" src="tutorial/csessions.png?raw=true"/>](tutorial/csessions.png?raw=true)
-5. There should be a session for "user" user listed, click on the three dots drop-down menu like in the picture above
+5. There should be a session for `user` user listed, click on the three dots drop-down menu like in the picture above
 6. Click on "Sign out"
 7. This should cause the KeyCloack server to directly call the running demo server and perform backchannel logout of the given user
 8. Go back to the demo and click, for example, on the "Public view" to open it
